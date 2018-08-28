@@ -13,7 +13,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.size == 0
+  if katz_deli.size >= 0
     katz_deli.push(name)
     puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.size} in line."
 end
