@@ -13,7 +13,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  puts "#{name}"
+  if katz_deli == 0 || katz_deli > 0
+  puts "Welcome, #{name}. You are number #{index+1} in line."
 end 
 
 def now_serving
