@@ -14,7 +14,8 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli >= 0
-  puts "Welcome, #{name}. You are number #{index+1} in line."
+    i = 0
+    puts "Welcome, #{name}. You are number #{i+1} in line."
 end
 end 
 
